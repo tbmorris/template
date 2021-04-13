@@ -23,7 +23,7 @@ logging:
   enabled: false
 
 monitoring:
-  enabled: true
+  enabled: false
 
 twistlock:
   enabled: true
