@@ -23,7 +23,7 @@ logging:
   enabled: false
 
 monitoring:
-  enabled: false
+  enabled: true
 
 twistlock:
   enabled: true
@@ -31,3 +31,7 @@ twistlock:
     console:
       persistence:
         size: 5Gi
+
+addons:
+  nexusRepositoryManager:
+    enabled: true
